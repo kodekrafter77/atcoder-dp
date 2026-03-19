@@ -2,10 +2,6 @@
 
 # https://atcoder.jp/contests/dp/tasks/dp_c
 
-import sys
-
-sys.setrecursionlimit(200000000)
-
 
 def solve():
     N = int(input())
@@ -53,5 +49,6 @@ def solve():
                 + activities[day][activity]
             )
     print(max(total_points[N - 1]))
+
 
 solve()
